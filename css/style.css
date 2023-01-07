@@ -1,5 +1,5 @@
 /* Eléments principaux de la page */
-#bloc_page
+.bloc_page
 {
     width: 100%;
     margin: auto;
@@ -21,7 +21,7 @@ h2
 {
     width: 450px;
     background-color: rgba(16, 70, 188, 0.916);
-    color: rgb(202, 202, 216);
+    color: rgb(222, 222, 233);
     border: 5px rgb(10, 6, 94) solid;
     border-radius: 0px 20px 20px 0px;
     border-left: transparent;
@@ -33,39 +33,39 @@ h3
 {
     text-decoration: underline;
     text-shadow: 2px 2px 2px rgb(10, 6, 94);
-    margin-top: 1.7em;
+    margin-top: 1.7rem;
 }
 
 /* Box infos persos */
-#bloc_infos_persos
+.bloc_personal_info
 {
     background-color: rgba(16, 70, 188, 0.916);
-    color: rgb(202, 202, 216);
-    font-size: 1.1em;
+    color: rgb(222, 222, 233);
+    font-size: 1.1rem;
     padding: 15px;
     border-left: 25px rgb(10, 6, 94) solid;
-    width: 35em;
+    width: 35rem;
 }
 
-#ma_photo
+.my_photo
 {
     text-align: center;
 }
 
-#ma_photo img
+.my_photo img
 {
     border-radius: 30px;
     margin-top: 20px;
     box-shadow: 0px 0px 50px rgb(10, 6, 94);
 }
 
-#entete_infos
+.heading
 {
     text-align: center;
     background-color: rgb(10, 6, 94);
     border-radius: 100px 0px 100px 0px;
     font-weight: bold;
-    box-shadow: 0px 0px 10px rgb(202, 202, 216);
+    box-shadow: 0px 0px 10px rgb(222, 222, 233);
 }
 
 a
@@ -78,33 +78,33 @@ a:hover
 	color: green;
 }
 
-#icones1
+.icons1
 {
     display: flex;
     justify-content: space-between;
-    height: 3em;
-    margin-top: 3em;
-    margin-left: 1em;
-    margin-right: 1em;
+    height: 3rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-#icones2
+.icons2
 {
     display: flex;
     justify-content: space-around;
-    height: 3em;
-    margin-top: 3em;
+    height: 3rem;
+    margin-top: 3rem;
 }
 
 /* Box expériences professionnelles */
-#bloc_exp_pro
+.bloc_pro_exp
 {
-    background-color: rgb(202, 202, 216);
-    font-size: 0.95em;
+    background-color: rgb(222, 222, 233);
+    font-size: 0.95rem;
     border-left: 5px rgb(10, 6, 94) solid;
 }
 
-.exp_pro
+.pro_exp
 {
     display: flex;
 }
@@ -115,28 +115,89 @@ a:hover
     padding-left: 20px;
 }
 
-.metier
+.job
 {
     flex: 2.3;
     padding-right: 25px;
 }
 
-.societe
+.society
 {
     text-shadow: 1px 1px 5px rgb(10, 6, 94);
 }
 
-#formation
+.formation
 {
     padding-left: 20px;
 }
 
-#softskills
+.softskills
 {
     padding-left: 20px;
 }
 
-#certifications
+.certificate
 {
     padding-left: 20px;
+}
+
+/* Media_Queries */
+@media only screen and (max-width: 575px)
+{
+    body
+    {
+        border: 5px rgb(10, 6, 94) solid;
+    }
+
+    .bloc_page
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloc_personal_info
+    {
+        border-left: transparent;
+        border-bottom: 5px rgb(10, 6, 94) solid;
+    }
+
+    .bloc_pro_exp
+    {
+        border-left: transparent;
+    }
+
+    h2
+    {
+        text-align: center;
+        border-left: 5px rgb(10, 6, 94) solid;
+        border-radius: 20px 20px 20px 20px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 795px)
+{    
+    .bloc_page
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bloc_personal_info
+    {
+        border-left: transparent;
+        border-bottom: 5px rgb(10, 6, 94) solid;
+    }
+
+    .bloc_pro_exp
+    {
+        border-left: transparent;
+    }
+    
+    h2
+    {
+        width: 60%;
+    }
 }
