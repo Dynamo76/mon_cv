@@ -1,0 +1,142 @@
+/* Eléments principaux de la page */
+#bloc_page
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+body
+{
+    font-family: "Kite One", sans-serif;
+    border: 5px rgb(10, 6, 94) solid;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    width: 450px;
+    background-color: rgba(16, 70, 188, 0.916);
+    color: rgb(202, 202, 216);
+    border: 5px rgb(10, 6, 94) solid;
+    border-radius: 0px 20px 20px 0px;
+    border-left: transparent;
+    padding-left: 20px;
+    text-shadow: 2px 2px 2px rgb(10, 6, 94);
+}
+
+h3
+{
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgb(10, 6, 94);
+    margin-top: 1.7em;
+}
+
+/* Box infos persos */
+#bloc_infos_persos
+{
+    background-color: rgba(16, 70, 188, 0.916);
+    color: rgb(202, 202, 216);
+    font-size: 1.1em;
+    padding: 15px;
+    border-left: 25px rgb(10, 6, 94) solid;
+    width: 35em;
+}
+
+#ma_photo
+{
+    text-align: center;
+}
+
+#ma_photo img
+{
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 50px rgb(10, 6, 94);
+}
+
+#entete_infos
+{
+    text-align: center;
+    background-color: rgb(10, 6, 94);
+    border-radius: 100px 0px 100px 0px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px rgb(202, 202, 216);
+}
+
+a
+{
+    color: rgba(10, 6, 94);
+}
+
+a:hover
+{
+	color: green;
+}
+
+#icones1
+{
+    display: flex;
+    justify-content: space-between;
+    height: 3em;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#icones2
+{
+    display: flex;
+    justify-content: space-around;
+    height: 3em;
+    margin-top: 3em;
+}
+
+/* Box expériences professionnelles */
+#bloc_exp_pro
+{
+    background-color: rgb(202, 202, 216);
+    font-size: 0.95em;
+    border-left: 5px rgb(10, 6, 94) solid;
+}
+
+.exp_pro
+{
+    display: flex;
+}
+
+.date
+{
+    flex: 1.1;
+    padding-left: 20px;
+}
+
+.metier
+{
+    flex: 2.3;
+    padding-right: 25px;
+}
+
+.societe
+{
+    text-shadow: 1px 1px 5px rgb(10, 6, 94);
+}
+
+#formation
+{
+    padding-left: 20px;
+}
+
+#softskills
+{
+    padding-left: 20px;
+}
+
+#certifications
+{
+    padding-left: 20px;
+}
