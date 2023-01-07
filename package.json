@@ -1,0 +1,20 @@
+{
+  "name": "mon_cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dynamo76/mon_cv.git"
+  },
+  "author": "monico jerome",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/Dynamo76/mon_cv/issues"
+  },
+  "homepage": "https://github.com/Dynamo76/mon_cv#readme"
+}
