@@ -44,7 +44,7 @@ h3
     font-size: 1.1rem;
     padding: 15px;
     border-left: 25px rgb(10, 6, 94) solid;
-    width: 35rem;
+    width: 38rem;
 }
 
 .my_photo
@@ -89,6 +89,14 @@ a:hover
 }
 
 .icons2
+{
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    margin-top: 3rem;
+}
+
+.icons3
 {
     display: flex;
     justify-content: space-around;
@@ -200,4 +208,3 @@ a:hover
     {
         width: 60%;
     }
-}
