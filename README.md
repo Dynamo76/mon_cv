@@ -21,3 +21,16 @@
 |*Modification du fichier css:*|
 |-|
     - modification de couleur de fond
+
+# mon_cv ![](https://img.shields.io/badge/Version-V3.0-rgb(41%2C%20241%2C%2057))
+|*Ajout de 2 icones:*|
+|-|
+    - python.png et react.png
+|*Modification du fichier html:*|
+|-|
+    - ajout des 2 icones python et react
+    - modification du fichier html
+|*Modification du fichier css:*|
+|-|
+    - modification due à l'ajout des 2 icones
+    
