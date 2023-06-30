@@ -17,10 +17,11 @@
 |*Modification du fichier html:*|
 |-|
     - modification des id en class
-    - ajout de texte
+    - ajout et modification du texte
 |*Modification du fichier css:*|
 |-|
     - modification de couleur de fond
+    - ajout des media_queries
 
 # mon_cv ![](https://img.shields.io/badge/Version-V3.0-rgb(41%2C%20241%2C%2057))
 |*Ajout de 2 icones:*|
