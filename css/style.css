@@ -96,6 +96,14 @@ a:hover
     margin-top: 3rem;
 }
 
+.icons3
+{
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    margin-top: 3rem;
+}
+
 /* Box expériences professionnelles */
 .bloc_pro_exp
 {
