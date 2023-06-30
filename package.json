@@ -6,6 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dynamo76/mon_cv.git"
+  },
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/Dynamo76/mon_cv/issues"
+  },
+  "homepage": "https://github.com/Dynamo76/mon_cv#readme",
   "author": "jerome_monico",
   "license": "ISC"
 }
